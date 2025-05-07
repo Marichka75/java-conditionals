@@ -10,7 +10,7 @@ public class Weather {
         if (temperature < 0) {
             System.out.println("Te estás congelando.");
         //Si es entre 0 y 10: Hace mucho frío
-        } else if (temperature >= 0 && temperature <= 10) {
+        } else if (temperature <= 10) {
             System.out.println("Hace mucho frío.");
             //Si es entre 11 y 17: Con un abrigo estás bien
         } else if (temperature >= 11 && temperature <= 17) {
